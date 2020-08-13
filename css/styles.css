@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     padding:0;
     scroll-behavior: smooth;
+    overflow:hidden;
 }
 
 body {
@@ -45,8 +46,10 @@ body {
 
 .intro {
     text-align: left;
-    padding-left:5%;
+    margin-left:5%;
     font-size: 250%;
+    color:white;
+    width:100%;
 }
 
 .position {
@@ -59,9 +62,16 @@ body {
 
 /*intro*/
 #page1 {
+    width:100%;
     background-color: #AFFFEC;
+    background-image: url(../img/sample1.jpg);
+    background-position:center;
+    background-size:cover;
 }
 
+#page2 {
+    background-image: url(../img/sample2.jpg);
+}
 
 
 footer {
