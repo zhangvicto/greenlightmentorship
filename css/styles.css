@@ -1,5 +1,69 @@
 html, body {
+    height:100%;
     margin: 0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
+body {
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.menu {
+    text-decoration: none;
+    text-align: right;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    padding-right:50px;
+    background-color: white;
+}
+
+.menu li {
+    display:inline-block;
+    padding-right:30px;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.page {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+.downButton {
+    position: absolute;
+    margin:auto;
+    padding:0;
+    top:80%;
+    left:50%;
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(157deg) brightness(101%) contrast(101%);
+}
+
+.intro {
+    text-align: left;
+    padding-left:5%;
+    font-size: 250%;
+}
+
+.position {
+    width:100%;
+}
+.social {
+    width:33%;
+    display:inline-block;
+}
+
+/*intro*/
+#page1 {
+    background-color: #AFFFEC;
+}
+
+
+
+footer {
+    text-align: center;
+}
