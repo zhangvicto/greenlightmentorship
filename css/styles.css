@@ -17,8 +17,7 @@ body {
     list-style-type: none;
     margin:0;
     padding:0;
-    padding-right:50px;
-    background-color: white;
+    padding-right:20px;
 }
 
 .menu li {
@@ -26,7 +25,25 @@ body {
     padding-right:30px;
     padding-top:20px;
     padding-bottom:20px;
+    font-size:20px;
     font-family: 'Baloo Tamma 2', cursive;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:white;
+    transition-delay: 100ms;
+}
+
+.menu li a:hover {
+    color:gray;
+}
+
+.menuButton {
+    color:white;
+    background:none;
+    border:none;
+    font-size: 20px;
 }
 
 .page {
