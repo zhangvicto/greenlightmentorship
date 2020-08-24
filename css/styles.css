@@ -12,6 +12,13 @@ html, body {
     overflow:hidden;
 }
 
+@font-face {
+    font-family: "Sunrise";
+    src: url("/font/sunrise/sunrise.woff") format("woff"),
+    url("/font/sunrise/sunrise.woff2") format("woff2"),
+    url("/font/sunrise/sunrise.otf") format("opentype");
+    }
+
 body {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -24,7 +31,7 @@ body {
     margin:0;
     padding:0;
     padding-right:50px;
-    background-color: white;
+    background-color: #8bd4a2;
     position: absolute;
     right: 0;
     width:100%;
@@ -39,12 +46,12 @@ body {
     padding-top:20px;
     padding-bottom:20px;
     font-size:20px;
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Sunrise', cursive;
 }
 
 .menu li a {
     text-decoration: none;
-    color:black;
+    color:white;
     transition-delay: 100ms;
 }
 
