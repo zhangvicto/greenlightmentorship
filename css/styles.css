@@ -53,7 +53,18 @@ body {
 }
 
 .upButton {
+    background:white;
+    width:5vh;
+    height:5vh;
+    border-radius: 5vh;
+    position: absolute;
+    border:none;
+    top:84vh;
+    right:5vh;
+}
 
+.upButton:hover {
+    background-color:black;
 }
 
 .page {
@@ -66,8 +77,8 @@ body {
     position: absolute;
     margin:auto;
     padding:0;
-    top:80%;
-    left:50%;
+    top:80vh;
+    left:50vw;
     background-color: none;
     filter: invert(100%) sepia(0%) brightness(100%) contrast(100%);
 }
