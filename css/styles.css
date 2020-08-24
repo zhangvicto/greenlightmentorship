@@ -37,7 +37,7 @@ body {
 
 .menu li a {
     text-decoration: none;
-    color:white;
+    color:black;
     transition-delay: 100ms;
 }
 
@@ -50,6 +50,10 @@ body {
     background:none;
     border:none;
     font-size: 20px;
+}
+
+.upButton {
+
 }
 
 .page {
