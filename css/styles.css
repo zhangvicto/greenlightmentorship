@@ -15,9 +15,9 @@ html, body {
 
 @font-face {
     font-family: "Sunrise";
-    src: url("font/sunrise/sunrise.woff") format("woff"),
-    url("font/sunrise/sunrise.woff2") format("woff2"),
-    url("font/sunrise/sunrise.otf") format("opentype");
+    src: url("../font/sunrise/sunrise.woff") format("woff"),
+    url("../font/sunrise/sunrise.woff2") format("woff2"),
+    url("../font/sunrise/sunrise.otf") format("opentype");
     }
 
 body {
