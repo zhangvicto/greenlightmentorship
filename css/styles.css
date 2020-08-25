@@ -68,9 +68,25 @@ body {
     color:white;
     background:none;
     border:none;
+    outline:none;
     font-size: 20px;
+    filter: invert(100%) sepia(1%) saturate(7481%) hue-rotate(251deg) brightness(105%) contrast(98%);
 }
 
+.menuButton:hover {
+    filter: invert(100%) sepia(0%) brightness(40%) contrast(100%);
+}
+
+.x-button {
+    background:none;
+    border:none;
+    outline:none;
+    filter: invert(100%) sepia(1%) saturate(7481%) hue-rotate(251deg) brightness(105%) contrast(98%);
+}
+
+.x-button:hover {
+    filter: invert(100%) sepia(0%) brightness(40%) contrast(100%);
+}
 
 .upButton {
     width:10px;
@@ -358,9 +374,14 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
-    .menu-button {
-      display:inline;
+    .menuButton {
+      display:none;
     }
+
+    .x-button {
+        display:none;
+    }
+
   }
 
 @media only screen and (max-width: 800px) {
@@ -370,10 +391,16 @@ body {
 
     .intro {
         width:100%;
+        margin-right:10%;
     }
 
     .slideshow-container {
         width:100%;
+        display:none;
+    }
+
+    .x-button {
+        display:hide;
     }
 
   }

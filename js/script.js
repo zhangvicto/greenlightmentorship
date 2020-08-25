@@ -19,18 +19,16 @@ function showSlides() {
 }
 
 function showMenu() {
-    let menu = document.getElementById("menuBar");
     let menuItems = document.getElementsByClassName("menu-item");
+    let xButton = document.getElementById("xbutton");
 
     for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "inline";}
     
 }
 
 function hideMenu() {
-    let menu = document.getElementById("menuBar");
     let menuItems = document.getElementsByClassName("menu-item");
 
         for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
     
 }
-]
