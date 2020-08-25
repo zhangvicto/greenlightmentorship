@@ -98,14 +98,13 @@ body {
 }
 
 .intro {
-    text-align: left;
-    font-size: 6vh;
-    color:white;
-    width:100%;
-    height:100%;
-    margin-top:60vh;
-    margin-left:38%;
-
+    font-size: 3vh;
+    color:#8bd4a2;
+    width:50%;
+    float:left;
+    position: relative;
+    margin-left:30px;
+    text-align: center;
 }
 
 .titles {
@@ -118,10 +117,7 @@ body {
 .position {
     width:100%;
 }
-.social {
-    width:33%;
-    display:inline-block;
-}
+
 
 /*intro*/
 #page1 {
@@ -136,19 +132,20 @@ body {
 /* Slideshow container */
 .slideshow-container {
   position: relative;
-  margin: auto;
-  width:60vw;
-  top:20%;
+  width:40%;
+  top:20vh;
   height:60vh;
   border-radius: 10px;
+  float:right;
+  margin-right:100px;
   -webkit-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
--moz-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
+  -moz-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
+  box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
 }
 
 .img1 {
     height:60vh;
-    width:60vw;
+    width:100%;
     margin:auto;
     background-image:url(../img/events/img1.jpg);
     background-size: cover;
@@ -157,7 +154,7 @@ box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
 
 .img2 {
     height:60vh;
-    width:60vw;
+    width:100%;
     margin:auto;
     background-image:url(../img/events/img2.jpg);
     background-size: cover;
@@ -166,7 +163,7 @@ box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
 
 .img3 {
     height:60vh;
-    width:60vw;
+    width:100%;
     margin:auto;
     background-image:url(../img/events/img3.jpg);
     background-size: cover;
@@ -174,10 +171,14 @@ box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
 }
 
 .dots-container {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto;
     width:66px;
-    display:block;
+    margin-top:20px;
+}
+
+.dots {
+    float:right;
 }
 
 /* Hide the images by default */
@@ -292,6 +293,37 @@ box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
 
 #page7 {
     text-align: center;
+}
+
+.social {
+    width:13vw;
+    height:13vw;
+    display:inline-block;
+}
+
+.social:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(206,89,55,0.6));
+  filter: drop-shadow(0px 0px 5px rgba(206,89,55,0.6));
+}
+
+.ig {
+    background-image: URL(../img/ig.png);
+    background-size:cover;
+}
+
+.fb {
+    background-image: URL(../img/fb.png);
+    background-size:cover;
+}
+
+.ln {
+    background-image: URL(../img/ln.png);
+    background-size:cover;
+}
+
+.dd {
+    background-image: URL(../img/dd.png);
+    background-size:cover;
 }
 
 .foot {
