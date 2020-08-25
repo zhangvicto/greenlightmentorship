@@ -60,6 +60,10 @@ body {
     color:gray;
 }
 
+.menu-button {
+    display:inline;
+  }
+
 .menuButton {
     color:white;
     background:none;
@@ -67,13 +71,16 @@ body {
     font-size: 20px;
 }
 
+
 .upButton {
-    width:5vh;
-    height:5vh;
+    width:10px;
+    height:10px;
     position: absolute;
     border:none;
     top:88vh;
-    right:5vw;
+    text-align:right;
+    padding-right:10px;
+    right:60px;
     filter: invert(90%) sepia(9%) saturate(1429%) hue-rotate(78deg) brightness(88%) contrast(87%);
 }
 
@@ -97,14 +104,15 @@ body {
 }
 
 .intro {
-    font-size: 3vh;
+    font-size: 2.5vh;
     color:#8bd4a2;
     width:35%;
     float:left;
     position: relative;
-    margin-left:10%;
+    margin-left:6%;
+    margin-right:6%;
     text-align: center;
-    padding-top:120px;
+    padding-top:160px;
 }
 
 .intro-img {
@@ -114,7 +122,7 @@ body {
 .intro-title {
     font-family: 'Sunrise', sans-serif;
     color:#8bd4a2;
-    font-size:40px; 
+    font-size:4vw; 
     margin-top:30px;
     text-align: left;
 }
@@ -127,7 +135,7 @@ body {
     padding-top:130px;
     font-family: 'Sunrise', sans-serif;
     color:#8bd4a2;
-    font-size:40px;
+    font-size:4vw;
 }
 
 .position {
@@ -153,7 +161,8 @@ body {
   height:60vh;
   border-radius: 10px;
   float:right;
-  margin-right:100px;
+  margin-right:5%;
+  margin-left:5%;
   -webkit-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
   -moz-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
   box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
@@ -347,3 +356,24 @@ body {
     position:relative;
     bottom:0;
 }
+
+@media only screen and (min-width: 1200px) {
+    .menu-button {
+      display:inline;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    .menu-item {
+      display:none;
+    }
+
+    .intro {
+        width:100%;
+    }
+
+    .slideshow-container {
+        width:100%;
+    }
+
+  }

@@ -15,14 +15,16 @@
 
     <!-- Menubar -->
     <div>
-        <ul class="menu">
+        <ul class="menu" id="menuBar">
             <li style="float:left;padding-left:100px;font-size:30px;padding-top:20px;"><a href="#"><img src="./img/logo_temp.png" height="30px">Green Light</a></li>
-            <li><a href="#page2">Our Mission</a></li>
-            <li><a href="#page3">The Team</a></li>
-            <li><a href="#page4">Get Involved</a></li>
-            <li><a href="#page5">Resources</a></li>
-            <li><a href="#page6">Events</a></li>
-            <li><a href="#page7">Contact Us</a></li>
+            <li><a class="menu-item" href="#page2">Our Mission</a></li>
+            <li><a class="menu-item" href="#page3">The Team</a></li>
+            <li><a class="menu-item" href="#page4">Get Involved</a></li>
+            <li><a class="menu-item" href="#page5">Resources</a></li>
+            <li><a class="menu-item" href="#page6">Events</a></li>
+            <li><a class="menu-item" href="#page7">Contact Us</a></li>
+            <li><button onclick="showMenu()" class="menuButton">&equiv;</button></li>
+            <li><button onclick="hideMenu()" class="menuButton">&#10005;</button></li>
         </ul>
     </div>
 
