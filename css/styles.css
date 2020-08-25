@@ -99,7 +99,7 @@ body {
 .intro {
     font-size: 3vh;
     color:#8bd4a2;
-    width:30%;
+    width:35%;
     float:left;
     position: relative;
     margin-left:10%;
@@ -116,6 +116,11 @@ body {
     color:#8bd4a2;
     font-size:40px; 
     margin-top:30px;
+    text-align: left;
+}
+
+.short {
+    text-align:left;
 }
 
 .titles {
