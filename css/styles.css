@@ -108,6 +108,12 @@ body {
 
 }
 
+.titles {
+    font-family: 'Sunrise', sans-serif;
+    color:#8bd4a2;
+    font-size:40px;
+}
+
 .position {
     width:100%;
 }
@@ -263,7 +269,33 @@ box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
 
 
 #page2 {
-    background-color:white;
+    padding-top:200px;
+    text-align: center;
+}
+
+#page3 {
+    padding-top:200px;
+    text-align: center;
+}
+
+#page4 {
+    padding-top:200px;
+    text-align: center;
+}
+
+#page5 {
+    padding-top:200px;
+    text-align: center;
+}
+
+#page6 {
+    padding-top:200px;
+    text-align: center;
+}
+
+#page7 {
+    padding-top:200px;
+    text-align: center;
 }
 
 
