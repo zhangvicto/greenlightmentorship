@@ -21,14 +21,23 @@ function showSlides() {
 function showMenu() {
     let menuItems = document.getElementsByClassName("menu-item");
     let xButton = document.getElementById("xbutton");
+    let menuButton = document.getElementById("menu-button");
 
-    for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "inline";}
-    
+    for (i=0;i < menuItems.length;i++) {
+        menuItems[i].style.display = "inline";
+    }
+    xButton.style.display = "inline";
+    menuButton.style.display="none";
 }
 
 function hideMenu() {
     let menuItems = document.getElementsByClassName("menu-item");
+    let xButton = document.getElementById("xbutton");
+    let menuButton = document.getElementById("menu-button");
 
         for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
+        xButton.style.display = "none";
+        menuButton.style.display="inline";
+    
     
 }

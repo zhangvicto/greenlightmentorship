@@ -81,6 +81,7 @@ body {
     background:none;
     border:none;
     outline:none;
+    display:none;
     filter: invert(100%) sepia(1%) saturate(7481%) hue-rotate(251deg) brightness(105%) contrast(98%);
 }
 
@@ -312,9 +313,12 @@ body {
 
 
 #page2 {
-
     text-align: center;
+    margin-left:10%;
+    margin-right:10%;
 }
+
+
 
 #page3 {
     text-align: center;
@@ -391,7 +395,6 @@ body {
 
     .intro {
         width:100%;
-        margin-right:10%;
     }
 
     .slideshow-container {
