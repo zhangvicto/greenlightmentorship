@@ -72,6 +72,7 @@ body {
     border:none;
     outline:none;
     font-size: 20px;
+    display:none;
     filter: invert(100%) sepia(1%) saturate(7481%) hue-rotate(251deg) brightness(105%) contrast(98%);
 }
 
@@ -379,26 +380,15 @@ body {
     bottom:0;
 }
 
-@media only screen and (max-width: 1200px) {
-    .menuButton {
-      display:none;
-    }
-
-    .x-button {
-        display:none;
-    }
-  }
-
 @media only screen and (max-width: 800px) {
     .menu-item {
-      float:left;
-      padding-left:30px;
       width:100%;
+      display:none;
     }
 
     .menu li a {
         text-align: center;
-        
+        left:0;
     }
 
     .menuButton {
@@ -406,7 +396,10 @@ body {
     }
     .intro {
         width:100%;
-        margin-right:100%;
+    }
+
+    .short {
+        margin-right:13%;
     }
 
     .slideshow-container {
