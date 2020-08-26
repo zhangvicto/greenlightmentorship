@@ -321,8 +321,6 @@ body {
     margin-right:10%;
 }
 
-
-
 #page3 {
     text-align: center;
 }
@@ -399,6 +397,7 @@ body {
     }
 
     .short {
+        padding-top:20px;
         margin-right:13%;
     }
 
