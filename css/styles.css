@@ -155,7 +155,7 @@ body {
     padding-top:130px;
     font-family: 'Sunrise', sans-serif;
     color:#8bd4a2;
-    font-size:4vw;
+    font-size: 8vh;
 }
 
 .position {
@@ -342,15 +342,17 @@ body {
 }
 
 .social {
-    width:13vw;
-    height:13vw;
+    width:30vh;
+    height:30vh;
     display:inline-block;
-    margin-right:40px;
+    margin-right:20px;
+    margin-left:20px;
 }
 
 .social:hover {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(206,89,55,0.6));
-  filter: drop-shadow(0px 0px 5px rgba(206,89,55,0.6));
+  filter: drop-shadow(0px 0px 10px rgba(206,89,55,0.6));
+  transition-duration: 1s;
 }
 
 .ig {
@@ -374,9 +376,13 @@ body {
 }
 
 .email-button {
+    text-align:center;
     border-radius:10px;
-    height:8vh;
+    background-color:#8bd4a2;
+    margin:20px;
+    padding:3vh 3vw 3vh 3vw;
     width:auto;
+    color:white;
     font-family: 'Sunrise', sans-serif;
     font-size:5vh;
     outline: none;
@@ -392,7 +398,7 @@ body {
 .foot {
     text-align: center;
     position:relative;
-    bottom:0;
+    bottom:0px;
 }
 
 @media only screen and (max-width: 800px) {
