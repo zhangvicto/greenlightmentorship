@@ -38,16 +38,11 @@ function hideMenu() {
 
         for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
         xButton.style.display = "none";
-        menuButton.style.display="inline";
-    
-    
+        menuButton.style.display="inline";   
 }
 
 function faqShowHide(answer) {
-  let showItem = document.getElementById("answer");
-  console.log(answer);
-  console.log(showItem);
-
+  let showItem = document.getElementById(answer);
   if (showItem.style.display == "none") {
     showItem.style.display = "block";
   } else {

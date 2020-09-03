@@ -374,11 +374,18 @@ body {
 
 .faq-show-button {
     background:none;
-    
+    outline: none;
+    border:none;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(206,89,55,0.6));
+    filter: drop-shadow(0px 0px 10px rgba(206,89,55,0.6));
+}
+
+.faq-show-button:hover {
+    cursor: pointer;
 }
 
 .faq-answer {
-    display:none;
+
 }
 
 /* Contact */
@@ -397,8 +404,8 @@ body {
 
 .social:hover {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(206,89,55,0.6));
-  filter: drop-shadow(0px 0px 10px rgba(206,89,55,0.6));
-  transition-duration: 1s;
+    filter: drop-shadow(0px 0px 10px rgba(206,89,55,0.6));
+    transition-duration: 1s;
 }
 
 .ig {
