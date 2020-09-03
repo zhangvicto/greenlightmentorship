@@ -1,6 +1,7 @@
 var slideIndex = 0;
 showSlides();
 
+
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -40,4 +41,16 @@ function hideMenu() {
         menuButton.style.display="inline";
     
     
+}
+
+function faqShowHide(answer) {
+  let showItem = document.getElementById("answer");
+  console.log(answer);
+  console.log(showItem);
+
+  if (showItem.style.display == "none") {
+    showItem.style.display = "block";
+  } else {
+    showItem.style.display = "none";
+  }
 }

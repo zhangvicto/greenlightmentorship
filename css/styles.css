@@ -368,6 +368,18 @@ body {
     text-align: center;
 }
 
+.faq-question {
+
+}
+
+.faq-show-button {
+    background:none;
+    
+}
+
+.faq-answer {
+    display:none;
+}
 
 /* Contact */
 #page7 {
