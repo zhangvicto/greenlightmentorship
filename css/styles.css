@@ -387,7 +387,6 @@ body {
 .past-event-date {
     display:inline-block;
     width: 20%;
-    float: left;
 }
 
 .past-event-description {
