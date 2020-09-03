@@ -1,7 +1,8 @@
-/* Color Scheme
-    GREEN- #8bd4a2
-    YELLOW- #ffde59
-    Accent Orange - #ff8652
+/* 
+Color Scheme
+GREEN- #8bd4a2
+YELLOW- #ffde59
+Accent Orange - #ff8652
 */
 
 html, body {
@@ -231,34 +232,6 @@ body {
   display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: gray;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color:white;
-}
-
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -313,31 +286,17 @@ body {
   to {opacity: 1}
 }
 
-
-
+/* Team */
 #page2 {
     text-align: center;
     margin-left:10%;
     margin-right:10%;
 }
 
+/* Events Page */
 #page3 {
     text-align: center;
 }
-
-#page4 {
-    text-align: center;
-}
-
-#page5 {
-    text-align: center;
-}
-
-/* Events Page */
-#page6 {
-    text-align: center;
-}
-
 
 .current-event {
     display:inline-block;
@@ -394,12 +353,26 @@ body {
     float: right;
 }
 
-#page7 {
+/* Get Involved */
+#page4 {
     text-align: center;
 }
 
-#page8 {
+/*Resources*/
+#page5 {
     text-align: center;
+}
+
+/* FAQ */
+#page6 {
+    text-align: center;
+}
+
+
+/* Contact */
+#page7 {
+    text-align: center;
+    height:89%;
 }
 
 .social {
@@ -458,9 +431,15 @@ body {
 
 .foot {
     text-align: center;
-    position:relative;
     bottom:0px;
+    display: inline-block;
+    background-color:#8bd4a2;
+    width:100%;
+    color:white;
+    padding-top:10px;
+    padding-bottom:10px;
 }
+
 
 @media only screen and (max-width: 800px) {
     .menu-item {
