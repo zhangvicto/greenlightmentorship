@@ -395,8 +395,11 @@ body {
     float: right;
 }
 
-
 #page7 {
+    text-align: center;
+}
+
+#page8 {
     text-align: center;
 }
 
