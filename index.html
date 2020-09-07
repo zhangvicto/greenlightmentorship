@@ -5,8 +5,6 @@
 
 <header>
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
 </header>
 
 <title>
@@ -19,7 +17,7 @@
     <!-- Menubar -->
     <div>
         <ul class="menu" id="menuBar">
-            <li class="menu-logo"><a href="#"><img src="./img/logo_temp.png" height="30px">Green Light</a></li>
+            <li class="menu-logo"><a href="#"><img src="./img/logo_temp.png" height="30px"><span style="font-family: 'Sunrise',sans-serif;font-size:30px;">Green Light</span></a></li>
             <li><button onclick="showMenu()" class="menuButton" id="menu-button"><img src="./img/3-bar.png"
                         height=20px></button></li>
             <li><button onclick="hideMenu()" class="x-button" id="xbutton"><img src="./img/x.png" height=20px></button>
@@ -44,6 +42,7 @@
 
         <!-- Welcome Message -->
         <div class="intro">
+            <img src="./img/intro-temp.png" height="300px">
             <div class="intro-title">Welcome to Green <span style="color:#ffde59;">Light</span>!</div>
             <div class="short">
                 Green Light is a mentorship program based in Ontario, Canada, that pairs high school students with a Canadian university student mentor based on their interests, academic course needs and post-secondary program choice.
@@ -105,6 +104,8 @@
     <div class="page" id="page3">
         <div class="titles">Meet Our Team</div>
         <p>Meet the Green Light executive team! This is the team focusing on Green Light’s growth for the 2020-2021 school year, running all aspects of the organization. Keep an eye out this year for some of the amazing initiatives our team has planned! </p>
+
+        <img src="img/team.png" height="50%"> 
     </div>
 
 
@@ -308,10 +309,10 @@
 
         <br>
 
-        <div class="social ig"><a href="https://www.instagram.com/greenlightmentorship/?hl=en"></a></div>
-        <div class="social fb"><a href="https://www.facebook.com/groups/2756758987775148/"></a></div>
-        <div class="social ln"><a href="https://www.linkedin.com/company/green-light-mentorship/"></a></div>
-        <div class="social dd"><a href="https://www.instagram.com/greenlightmentorship/?hl=en"></a></div>
+        <div onclick="window.open('https://www.instagram.com/greenlightmentorship/?hl=en','Greenlight Instagram');" class="social ig"></div>
+        <div onclick="window.open('https://www.facebook.com/groups/2756758987775148/','Greenlight Facebook');" class="social fb"></div>
+        <div onclick="window.open('https://www.linkedin.com/company/green-light-mentorship/','Greenlight LinkedIn');" class="social ln"></div>
+        <div onclick="window.open('https://discord.gg/uutyFd','Greenlight Instagram');" class="social dd"></div>
 
         <br><br>
 

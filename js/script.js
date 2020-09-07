@@ -25,10 +25,17 @@ function showMenu() {
     let menuButton = document.getElementById("menu-button");
 
     for (i=0;i < menuItems.length;i++) {
-        menuItems[i].style.display = "inline";
+        menuItems[i].style.display = "block";
     }
     xButton.style.display = "inline";
     menuButton.style.display="none";
+}
+
+if (window.innerWidth < 1100) {
+  let menuItems = document.getElementsByClassName("menu-item");
+  for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
+} else {
+  for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "block";}
 }
 
 function hideMenu() {
@@ -38,7 +45,6 @@ function hideMenu() {
 
         for (i=0;i < menuItems.length;i++) {
           menuItems[i].style.display = "none";
-          menuItems[i].style.width = "100%";
       }
         xButton.style.display = "none";
         menuButton.style.display="block";   
