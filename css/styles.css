@@ -131,6 +131,7 @@ body {
     height: 100vh;
     scroll-snap-align: center;
     color:gray;
+    font-size: large;
 }
 
 .downButton {
@@ -213,7 +214,7 @@ body {
     margin:auto;
     background-image:url(../img/events/img1.png);
     background-size: cover;
-    background-repeat: repeat;
+    background-position: center;
     border-radius: 10px;
 }
 
@@ -307,8 +308,8 @@ body {
 
 #page2 {
     text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left:20%;
+    margin-right:20%;
 }
 
 /* Team */
