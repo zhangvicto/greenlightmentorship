@@ -36,9 +36,12 @@ function hideMenu() {
     let xButton = document.getElementById("xbutton");
     let menuButton = document.getElementById("menu-button");
 
-        for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
+        for (i=0;i < menuItems.length;i++) {
+          menuItems[i].style.display = "none";
+          menuItems[i].style.width = "100%";
+      }
         xButton.style.display = "none";
-        menuButton.style.display="inline";   
+        menuButton.style.display="block";   
 }
 
 function faqShowHide(answer) {
