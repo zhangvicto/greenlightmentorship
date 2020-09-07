@@ -211,8 +211,9 @@ body {
     height:60vh;
     width:100%;
     margin:auto;
-    background-image:url(../img/events/img1.jpg);
-    background-size: cover;
+    background-image:url(../img/events/img1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     border-radius: 10px;
 }
 
@@ -220,7 +221,7 @@ body {
     height:60vh;
     width:100%;
     margin:auto;
-    background-image:url(../img/events/img2.jpg);
+    background-image:url(../img/events/img2.png);
     background-size: cover;
     border-radius:10px;
 }
@@ -229,7 +230,7 @@ body {
     height:60vh;
     width:100%;
     margin:auto;
-    background-image:url(../img/events/img3.jpg);
+    background-image:url(../img/events/img3.png);
     background-size: cover;
     border-radius: 10px;
 }
