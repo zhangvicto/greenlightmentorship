@@ -39,7 +39,6 @@ html, body {
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
-    border-radius: 2px;
   }
   
   /* Track */
@@ -49,6 +48,7 @@ html, body {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
     background: #8bd4a2; 
   }
   
@@ -367,6 +367,8 @@ body {
     height:15vh;
     background-image: url(../img/events/img2.png);
     background-size: contain;
+    border-radius:5px;
+    margin:20px;
 }
 
 .current-event-description {
@@ -377,7 +379,7 @@ body {
 }
 
 .current-event-date {
-    font-size:20px;
+    font-size:18px;
     margin:20px;
     height:40px;
     width:100px;
@@ -389,7 +391,7 @@ body {
 .past-events {
     vertical-align: top;
     display:inline-block;
-    width:50%;
+    width:60%;
     height:55vh;
     overflow-y:scroll;
     font-size:3vh;
@@ -399,7 +401,6 @@ body {
 }
 
 .past-event-item {
-    height:10%;
 }
 
 .past-event-date {
@@ -457,14 +458,15 @@ body {
 #page8 {
     text-align: center;
     height:89%;
+    margin-left:8%;
+    margin-right:8%;
 }
 
 .social {
     width:13vw;
     height:13vw;
     display:inline-block;
-    margin-right:20px;
-    margin-left:20px;
+    margin:2vw;
     cursor: pointer;
 }
 
