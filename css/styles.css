@@ -286,15 +286,19 @@ body {
   to {opacity: 1}
 }
 
-/* Team */
 #page2 {
+    text-align: center;
+}
+
+/* Team */
+#page3 {
     text-align: center;
     margin-left:10%;
     margin-right:10%;
 }
 
 /* Events Page */
-#page3 {
+#page4 {
     text-align: center;
 }
 
@@ -354,17 +358,17 @@ body {
 }
 
 /* Get Involved */
-#page4 {
-    text-align: center;
-}
-
-/*Resources*/
 #page5 {
     text-align: center;
 }
 
-/* FAQ */
+/*Resources*/
 #page6 {
+    text-align: center;
+}
+
+/* FAQ */
+#page7 {
     text-align: center;
 }
 
@@ -389,7 +393,7 @@ body {
 }
 
 /* Contact */
-#page7 {
+#page8 {
     text-align: center;
     height:89%;
 }
