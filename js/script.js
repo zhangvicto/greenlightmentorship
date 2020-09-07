@@ -31,12 +31,12 @@ function showMenu() {
     menuButton.style.display="none";
 }
 
-if (window.innerWidth < 1100) {
+time=setInterval( function() {if (window.innerWidth < 1100 && document.getElementById("menu-button").style.display == "block") {
   let menuItems = document.getElementsByClassName("menu-item");
   for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
 } else {
   for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "block";}
-}
+}},1000);
 
 function hideMenu() {
     let menuItems = document.getElementsByClassName("menu-item");

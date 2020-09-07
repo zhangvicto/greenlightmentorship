@@ -401,16 +401,24 @@ body {
 }
 
 .past-event-item {
+    margin:10px;
+    height:10%;
 }
 
 .past-event-date {
     display:inline-block;
     width: 20%;
+    height:10%
+}
+
+.past-event-name {
+    float:right;
+    width:80%;
 }
 
 .past-event-description {
     width:80%;
-    float: right;
+    display:none;
 }
 
 /* Get Involved */
