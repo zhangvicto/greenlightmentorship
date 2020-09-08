@@ -6,6 +6,8 @@
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="./img/logo3.png">
 </head>
 
@@ -20,11 +22,12 @@
     <div>
         <ul class="menu" id="menuBar">
             <li class="menu-logo"><a href="#">
-                <img src="./img/logo1.png" height="30px">
-                <span style="font-family: 'Sunrise',sans-serif;font-size:35px;letter-spacing: 1px;">Green Light</span></a></li>
+                    <img src="./img/logo1.png" height="30px">
+                    <span style="font-family: 'Sunrise',sans-serif;font-size:35px;letter-spacing: 1px;">Green
+                        Light</span></a></li>
             <li>
                 <button onclick="showMenu()" class="menuButton" id="menu-button">
-                <img src="./img/3-bar.png" height=20px></button>
+                    <img src="./img/3-bar.png" height=20px></button>
             </li>
             <li>
                 <button onclick="hideMenu()" class="x-button" id="xbutton"><img src="./img/x.png" height=20px></button>
@@ -136,12 +139,12 @@
                 <div class="current-event-image"></div>
 
                 <div class="current-event-date">
-                    SEPT <span style="font-size:30px;">22</span>
+                     SEPT<span style="font-size:30px;"> 22</span>
                 </div>
 
                 <hr style="width:90%;margin:0;margin-left:5%;">
 
-                <div class="current-event-description"s>
+                <div class="current-event-description" s>
                     In light of the recent cancellation of the official Ontario University Fair (OUF), Green Light is
                     hosting a 2-day virtual OUF to help high school students & parents access first-hand information
                     from university students. This event will feature an array of workshops that touch on various topics
@@ -154,14 +157,16 @@
 
 
 
+            
 
             <!-- Past Events-->
             <div class="past-events">
+
                 <div class="past-events-item">
                     <div class="past-event-date">TBA</div>
                     <div class="past-event-name">Summer Session: Be Financially Fit! Financial Literacy for Students
                     </div>
-                    <div><button onclick="showEvent('pastEvent1')" class="past-event-button"></button></div>
+                    <button onclick="showEvent('pastEvent1')" class="past-event-button">See More</button>
                     <div class="past-event-description" id="pastEvent1">
                         Get ready for an hour of financial foresight! Join us to learn more about the ins and outs of
                         financial literacy and how to plot your financial future. In this session, we will be discussing
@@ -174,7 +179,7 @@
                 <div class="past-events-item">
                     <div class="past-event-date">TBA</div>
                     <div class="past-event-name">Summer Session: Branch Out! Networking and Job Apps 101</div>
-                    <div><button onclick="showEvent('pastEvent2')" class="past-event-button"></button></div>
+                    <button onclick="showEvent('pastEvent2')" class="past-event-button">See More</button>
                     <div class="past-event-description" id="pastEvent2">
                         Join university students and grads for an interactive workshop all about networking! Learn how
                         to branch out through job applications, events, and other ways to make professional connections.
@@ -187,8 +192,8 @@
                     <div class="past-event-date">AUG 19</div>
                     <div class="past-event-name">Summer Session: Introduction to Programming, in partnership with
                         McMaster iGEM</div>
-                    <div class="past-event-button"></div>
-                    <div class="past-event-description" id="past-event3">
+                    <button onclick="showEvent('pastEvent3')" class="past-event-button"></button>
+                    <div class="past-event-description" id="pastEvent3">
                         Is learning how to code one of your summer / quarantine goals? Does the idea of computer science
                         excite you? Want to learn more about the world of computer science in the field of research? If
                         you answered yes to any of these, then this workshop is perfect for you!
@@ -198,8 +203,8 @@
                 <div class="past-events-item">
                     <div class="past-event-date">AUG 7</div>
                     <div class="past-event-name">Summer Session: The Unemphasized Impacts of Your Habits</div>
-                    <div class="past-event-button"></div>
-                    <div class="past-event-description" id="past-event4">
+                    <button onclick="showEvent('pastEvent4')" class="past-event-button"></button>
+                    <div class="past-event-description" id="pastEvent4">
                         Learn the impact that 21st century habits have on your education, health and success! If you
                         want to improve your lifestyle, then this workshop is for you! You’ll leave the session with a
                         game plan to become healthier and happier now and in the future. *especially important during
@@ -210,8 +215,8 @@
                 <div class="past-events-item">
                     <div class="past-event-date">AUG 7</div>
                     <div class="past-event-name">Summer Session: Business and Nonprofit Organization Essentials</div>
-                    <div class="past-event-button"></div>
-                    <div class="past-event-description" id="past-event5">
+                    <button onclick="showEvent('pastEvent5')" class="past-event-button"></button>
+                    <div class="past-event-description" id="pastEvent5">
                         Learn the basics of starting your own business or nonprofit organization! Whether you want to
                         sell your jewelry, or a new club at school, this session for you. Topics covered include
                         registering your business/organization, recruiting a team, branding, and finance.
@@ -221,8 +226,8 @@
                 <div class="past-events-item">
                     <div class="past-event-date">AUG 7</div>
                     <div class="past-event-name">Summer Session: Standing Out as an Applicant</div>
-                    <div class="past-event-button"></div>
-                    <div class="past-event-description" id="past-event6">
+                    <button onclick="showEvent('pastEvent6')" class="past-event-button"></button>
+                    <div class="past-event-description" id="pastEvent6">
                         Advice and tips on the Ontario University application process, including how to stand out in
                         supplemental essay writing and interviews.
                     </div>
@@ -231,8 +236,8 @@
                 <div class="past-events-item">
                     <div class="past-event-date">MAY 25</div>
                     <div class="past-event-name">The Crossroads</div>
-                    <div class="past-event-button"></div>
-                    <div class="past-event-description" id="past-event7">
+                    <button onclick="showEvent('pastEvent7')" class="past-event-button"></button>
+                    <div class="past-event-description" id="pastEvent7">
                         A series of virtual 'open houses' of various Ontario universities & programs for students to
                         discover the best 'road' for them, especially with final university acceptance deadlines
                         approaching.
@@ -244,8 +249,8 @@
                 <div class="past-events-item">
                     <div class="past-event-date">MAY 8</div>
                     <div class="past-event-name">The Hangout</div>
-                    <div class="past-event-button"></div>
-                    <div class="past-event-description" id="past-event8">
+                    <button onclick="showEvent('pastEvent8')" class="past-event-button"></button>
+                    <div class="past-event-description" id="pastEvent8">
                         Green Light's first event was a panelist session called The Hangout, where high school students
                         were invited to meet & ask 10 university students from various fields across Ontario anything!
                         Over the span of two days, over 70 attendees asked 20 university students questions about their
@@ -263,7 +268,7 @@
 
         </div>
         <br>
-        <span style="padding:10%;">Access the resources all of the amazing facilitators have made<a href="#page6"
+        <span style="margin-top: 20px;">Access the resources all of the amazing facilitators have made<a href="#page6"
                 style="text-decoration: none; color:#8bd4a2;"> HERE</a>!</span>
 
     </div>
