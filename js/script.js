@@ -74,8 +74,8 @@ function showEvent(event) {
   let eventStyle = getComputedStyle(eventNumber);
 
   if (eventStyle.display == "none") {
-    eventStyle.display = "block";
+    eventNumber.style.display = "block";
   } else {
-    eventStyle.display = "none";
+    eventNumber.style.display = "none";
   }
 }

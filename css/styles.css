@@ -338,6 +338,8 @@ body {
 /* Our Mission */
 #page2 {
     text-align: center;
+    padding-left:10%;
+    padding-right:10%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/2.png);
@@ -346,6 +348,8 @@ body {
 /* Team */
 #page3 {
     text-align: center;
+    padding-left:10%;
+    padding-right:10%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/3.png);
@@ -415,7 +419,7 @@ body {
 
 .past-event-date {
     display:inline-block;
-    width: 25%;
+    width: 20%;
     height:100%;
     vertical-align: top;
     text-align: left;
@@ -425,11 +429,11 @@ body {
     display:inline-block;
     width:65%;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .past-event-button {
-    width:10%;
+    width:20%;
     background-color:#8bd4a2;
 }
 
@@ -443,8 +447,8 @@ body {
 /* Get Involved */
 #page5 {
     text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    padding-left:10%;
+    padding-right:10%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/5.png);
