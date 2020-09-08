@@ -67,6 +67,7 @@ body {
     text-decoration: none;
     text-align: right;
     list-style-type: none;
+    height:auto;
     margin:0;
     padding:0;
     background-color: #8bd4a2;
@@ -80,8 +81,8 @@ body {
 .menu li {
     display:inline-block;
     padding-right:30px;
-    padding-top:30px;
-    padding-bottom:20px;
+    margin-top:20px;
+    margin-bottom: 20px;
     font-size:20px;
     font-family: 'Proxima Nova Bold',sans-serif;
     font-weight: 800;
@@ -99,10 +100,14 @@ body {
 }
 
 .menu-logo {
-    float:left;
+    float: left;
     padding-left:20px;
-    font-size:30px;
-    padding-top:20px;
+    transition-duration: 300ms;
+    margin:0px;
+}
+
+.menu-logo:hover {
+    filter: invert(80%) sepia(0%) brightness(60%) contrast(80%);
 }
 
 .menuButton {

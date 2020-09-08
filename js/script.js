@@ -32,7 +32,7 @@ time=setInterval(function() {
       menuItems[i].style.display = "none";
   } 
   } else {}
-},1000);
+},50);
 
 //show menu
 function showMenu() {
