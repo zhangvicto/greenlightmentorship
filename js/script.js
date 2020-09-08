@@ -67,3 +67,15 @@ function faqShowHide(answer) {
     showItem.style.display = "none";
   }
 }
+
+//show event
+function showEvent(event) {
+  let eventNumber = document.getElementById(event);
+  let eventStyle = getComputedStyle(eventNumber);
+
+  if (eventStyle.display == "none") {
+    eventStyle.display = "block";
+  } else {
+    eventStyle.display = "none";
+  }
+}

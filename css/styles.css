@@ -217,7 +217,7 @@ body {
     background-color: white;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/page1.png);
+    background-image: url(../img/background/1.png);
 }
 
 /* Image Carousel */
@@ -338,20 +338,25 @@ body {
 /* Our Mission */
 #page2 {
     text-align: center;
-    margin-left:12%;
-    margin-right:12%;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/2.png);
 }
 
 /* Team */
 #page3 {
     text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/3.png);
 }
 
 /* Events Page */
 #page4 {
     text-align: center;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/4.png);
 }
 
 .events-container {
@@ -406,18 +411,26 @@ body {
 
 .past-event-item {
     margin:10px;
-    height:20%;
 }
 
 .past-event-date {
     display:inline-block;
-    width: 20%;
-    height:10%;
+    width: 25%;
+    height:100%;
+    vertical-align: top;
+    text-align: left;
 }
 
 .past-event-name {
-    float:right;
-    width:80%;
+    display:inline-block;
+    width:65%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.past-event-button {
+    width:10%;
+    background-color:#8bd4a2;
 }
 
 .past-event-description {
@@ -432,20 +445,29 @@ body {
     text-align: center;
     margin-left:10%;
     margin-right:10%;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/5.png);
 }
 
 /*Resources*/
 #page6 {
     text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    padding-left:10%;
+    padding-right:10%;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/6.png);
 }
 
 /* FAQ */
 #page7 {
     text-align: center;
-    margin-left:10%;
-    margin-right:10%;
+    padding-left:10%;
+    padding-right:10%;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/7.png);
 }
 
 .faq-question {
@@ -472,8 +494,11 @@ body {
 #page8 {
     text-align: center;
     height:89%;
-    margin-left:8%;
-    margin-right:8%;
+    padding-left:10%;
+    padding-right:10%;
+    background-position:center;
+    background-size:cover;
+    background-image: url(../img/background/8.png);
 }
 
 .social {
