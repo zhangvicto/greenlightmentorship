@@ -19,8 +19,23 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
 
+//getting menu-item as an array
+let menuItems = document.getElementsByClassName("menu-item");
+
+//default hide menu
+time=setInterval(function() {
+  let menuButton = document.getElementById('menu-button');
+  let buttonStyle = getComputedStyle(menuButton);
+
+  if (window.innerWidth < 1100 && buttonStyle.display == "block") {
+    for (i=0;i < menuItems.length;i++) {
+      menuItems[i].style.display = "none";
+  } 
+  } else {}
+},1000);
+
+//show menu
 function showMenu() {
-    let menuItems = document.getElementsByClassName("menu-item");
     let xButton = document.getElementById("xbutton");
     let menuButton = document.getElementById("menu-button");
 
@@ -31,15 +46,8 @@ function showMenu() {
     menuButton.style.display="none";
 }
 
-time=setInterval( function() {if (window.innerWidth < 1100 && document.getElementById("menu-button").style.display == "block") {
-  let menuItems = document.getElementsByClassName("menu-item");
-  for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "none";}
-} else {
-  for (i=0;i < menuItems.length;i++) {menuItems[i].style.display = "block";}
-}},1000);
-
+//hides the menu
 function hideMenu() {
-    let menuItems = document.getElementsByClassName("menu-item");
     let xButton = document.getElementById("xbutton");
     let menuButton = document.getElementById("menu-button");
 
@@ -50,6 +58,7 @@ function hideMenu() {
         menuButton.style.display="block";   
 }
 
+//show or hide faq answer
 function faqShowHide(answer) {
   let showItem = document.getElementById(answer);
   if (showItem.style.display == "none") {

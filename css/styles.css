@@ -212,6 +212,7 @@ body {
     background-color: white;
     background-position:center;
     background-size:cover;
+    background-image: url(../img/page1.png);
 }
 
 /* Image Carousel */
@@ -355,9 +356,8 @@ body {
 .current-event {
     vertical-align: top;
     display:inline-block;
-    width:30%;
+    width:35%;
     height:55vh;
-    margin:auto;
     -webkit-box-shadow: -38px 0px 55px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: -38px 0px 55px 0px rgba(0,0,0,0.15);
     box-shadow: -38px 0px 55px 0px rgba(0,0,0,0.15);
@@ -373,25 +373,24 @@ body {
 
 .current-event-description {
     height:24vh;
-    margin:20px;
+    margin:15px;
     text-align:left; 
     overflow-y: scroll;
 }
 
 .current-event-date {
-    font-size:18px;
-    margin:20px;
-    height:40px;
+    font-size:15px;
+    text-align: left;
     width:100px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    padding-top:5px;
+    margin-left:20px;
 }
-
 
 /* Past Events */
 .past-events {
     vertical-align: top;
     display:inline-block;
-    width:60%;
+    width:55%;
     height:55vh;
     overflow-y:scroll;
     font-size:3vh;
@@ -402,13 +401,13 @@ body {
 
 .past-event-item {
     margin:10px;
-    height:10%;
+    height:20%;
 }
 
 .past-event-date {
     display:inline-block;
     width: 20%;
-    height:10%
+    height:10%;
 }
 
 .past-event-name {
@@ -419,6 +418,8 @@ body {
 .past-event-description {
     width:80%;
     display:none;
+    position: absolute;
+    
 }
 
 /* Get Involved */
@@ -443,7 +444,7 @@ body {
 }
 
 .faq-question {
-
+    margin-top:5vh;
 }
 
 .faq-show-button {
