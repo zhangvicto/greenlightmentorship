@@ -644,6 +644,10 @@ body {
 
 
 @media only screen and (max-width: 1100px) {
+    body {
+        scroll-snap-type: none;
+    }
+
     .menu-item {
       width:100%;
       text-align: center;
