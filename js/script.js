@@ -68,7 +68,7 @@ function faqShowHide(answer) {
   }
 }
 
-//show event
+//show or hide event
 function showEvent(event) {
   let eventNumber = document.getElementById(event);
   let eventStyle = getComputedStyle(eventNumber);
