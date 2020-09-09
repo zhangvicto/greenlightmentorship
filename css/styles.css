@@ -386,7 +386,8 @@ body {
 .current-event-image {
     height:15vh;
     background-image: url(../img/events/banner.png);
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
     border-radius:5px;
     margin:20px;
 }
