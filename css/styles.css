@@ -253,6 +253,7 @@ body {
     margin:auto;
     background-image:url(../img/events/img2.png);
     background-size: cover;
+    background-position: center;
     border-radius:10px;
 }
 
@@ -262,6 +263,7 @@ body {
     margin:auto;
     background-image:url(../img/events/img3.png);
     background-size: cover;
+    background-position: center;
     border-radius: 10px;
 }
 
@@ -383,7 +385,7 @@ body {
 
 .current-event-image {
     height:15vh;
-    background-image: url(../img/events/img2.png);
+    background-image: url(../img/events/banner.png);
     background-size: contain;
     border-radius:5px;
     margin:20px;
