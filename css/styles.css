@@ -342,7 +342,7 @@ body {
     padding-right:10%;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/2.png);
+    background-image: url(../img/background/2-01.png);
 }
 
 /* Team */
@@ -352,7 +352,7 @@ body {
     padding-right:10%;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/3.png);
+    background-image: url(../img/background/3-01.png);
 }
 
 /* Events Page */
@@ -360,7 +360,7 @@ body {
     text-align: center;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/4.png);
+    background-image: url(../img/background/4-01.png);
 }
 
 .events-container {
@@ -520,7 +520,7 @@ body {
     padding-right:10%;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/5.png);
+    background-image: url(../img/background/5-01.png);
 }
 
 /*Resources*/
@@ -530,7 +530,7 @@ body {
     padding-right:10%;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/6.png);
+    background-image: url(../img/background/6-01.png);
 }
 
 /* FAQ */
@@ -540,7 +540,7 @@ body {
     padding-right:10%;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/7.png);
+    background-image: url(../img/background/7-01.png);
 }
 
 .faq-question {
@@ -571,7 +571,7 @@ body {
     padding-right:10%;
     background-position:center;
     background-size:cover;
-    background-image: url(../img/background/8.png);
+    background-image: url(../img/background/8-01.png);
 }
 
 .social {
