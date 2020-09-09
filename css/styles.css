@@ -338,8 +338,8 @@ body {
 /* Our Mission */
 #page2 {
     text-align: center;
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:15%;
+    padding-right:15%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/2-01.png);
@@ -348,8 +348,8 @@ body {
 /* Team */
 #page3 {
     text-align: center;
-    padding-left:10%;
-    padding-right:10%;
+    padding-left:15%;
+    padding-right:15%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/3-01.png);
