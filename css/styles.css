@@ -357,6 +357,10 @@ body {
     background-image: url(../img/background/3-01.png);
 }
 
+.team-pic {
+    height:50%;
+}
+
 /* Events Page */
 #page4 {
     text-align: center;
@@ -677,6 +681,11 @@ body {
 
     .x-button {
         display:none;
+    }
+
+    .team-pic {
+        width:100%;
+        height:auto;
     }
 
   }
