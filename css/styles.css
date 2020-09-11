@@ -192,7 +192,7 @@ body {
 }
 
 .intro-img {
-
+    height:300px;
 }
 
 .intro-title {
@@ -353,6 +353,10 @@ body {
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/2-01.png);
+}
+
+.mission-img {
+    height:50%;
 }
 
 /* Team */
@@ -575,7 +579,9 @@ body {
 }
 
 .faq-answer {
-
+    margin:10px;
+    font-size: smaller;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Contact */
@@ -708,6 +714,27 @@ body {
   }
 
   @media only screen and (max-width: 600px) {
+    .intro-title {
+        font-size: 5vh;
+    }
+    
+    .intro-img { 
+        display:block;
+        width:75vw;
+        height:auto;
+
+    }
+
+    .intro {
+        padding-top:150px;
+        margin-left:8%;
+        margin-right:6%;
+    }
+    
+    .mission-img {
+        height:40%;
+    }
+
     #page7 {
         height:auto;
     }  
