@@ -362,16 +362,52 @@ body {
 /* Team */
 #page3 {
     text-align: center;
-    padding-left:15%;
-    padding-right:15%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/3-01.png);
 }
 
-.team-pic {
-    height:50%;
+.photo-container {
+    width:100vw;
+    margin:0;
+    padding:0;
 }
+
+.exec-card {
+    padding-top:20px;
+    width:15.5%;
+    display:inline-block;
+    padding-bottom: 10px;
+}
+
+.exec-name {
+    color:#8bd4a2;
+    font-size: 2vw;
+    font-family: 'Sunrise', sans-serif;
+    padding:5px;
+}
+
+.exec-frame {
+    width:10vw;
+    height:10vw;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exec-position {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.exec-program {
+    font-size: small;
+    height:10%;
+}
+
+
+
 
 /* Events Page */
 #page4 {
@@ -711,6 +747,21 @@ body {
       .current-event {
           width:90%;
       }
+
+      .exec-card {
+        padding-top:20px;
+        width:20%;
+        height:auto;
+    }
+
+    .exec-frame {
+        width:10vw;
+        height:10vw;
+    }
+
+    .exec-name {
+        font-size: 3vh;
+    }
   }
 
   @media only screen and (max-width: 600px) {
@@ -722,7 +773,6 @@ body {
         display:block;
         width:75vw;
         height:auto;
-
     }
 
     .intro {
@@ -733,6 +783,24 @@ body {
     
     .mission-img {
         height:40%;
+    }
+
+    #page3 {
+        height:auto;
+    }
+
+    .exec-card {
+        padding-top:20px;
+        width:40%;
+    }
+
+    .exec-frame {
+        width:30vw;
+        height:30vw;
+    }
+
+    .exec-name {
+        font-size: 5vh;
     }
 
     #page7 {
