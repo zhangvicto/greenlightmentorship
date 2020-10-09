@@ -810,3 +810,13 @@ body {
           height:auto;
       }
 }
+
+
+@media only screen and (max-width: 400px) {
+    .titles {
+        font-size:7vh;
+    }
+    .exec-name {
+         font-size: 3.4vh;
+    }
+}
