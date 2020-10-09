@@ -27,7 +27,7 @@ time=setInterval(function() {
   let menuButton = document.getElementById('menu-button');
   let buttonStyle = getComputedStyle(menuButton);
 
-  if (window.innerWidth < 1100 && buttonStyle.display == "block") {
+  if (window.innerWidth < 1250 && buttonStyle.display == "block") {
     for (i=0;i < menuItems.length;i++) {
       menuItems[i].style.display = "none";
   } 
