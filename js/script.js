@@ -16,7 +16,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000); // Change image every 4 seconds
+  setTimeout(showSlides, 10000); // Change image every 4 seconds
 }
 
 //getting menu-item as an array
