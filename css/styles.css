@@ -438,8 +438,8 @@ body {
     height:30px;
 }
 
-.workshop-signup {
-    
+.workshop-signup:hover {
+    color:yellow;
 }
 
 .events-container {
