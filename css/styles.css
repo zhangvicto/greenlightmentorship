@@ -434,7 +434,13 @@ body {
     background-image: url(../img/background/4-01.png);
 }
 
-.workshop-
+.workshop-date {
+    height:30px;
+}
+
+.workshop-signup {
+    
+}
 
 .events-container {
     margin-top:20px;
