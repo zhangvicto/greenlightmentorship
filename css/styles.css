@@ -35,6 +35,14 @@ html, body {
     url("../font/proxima_nova_regular/Proxima\ Nova\ Alt\ Regular.otf");
 }
 
+@font-face {
+    font-family: "Lovelo";
+    src:url("../font/lovelo/lovelo-black-webfont.woff") format("woff"),
+    url("../font/lovelo/lovelo-black-webfont.woff2") format("woff2"),
+    url("../font/lovelo/Lovelo-Black.otf");
+    
+}
+
 /* Custom Scrollbar */
 /* width */
 ::-webkit-scrollbar {
@@ -413,6 +421,13 @@ body {
 
 /* Events Page */
 #page4 {
+    text-align: center;
+    background-position:center;
+    background-size:cover; 
+    background-image: url(../img/background/4-01.png);
+}
+
+#page4a {
     text-align: center;
     background-position:center;
     background-size:cover; 
