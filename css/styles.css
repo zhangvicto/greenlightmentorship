@@ -257,7 +257,7 @@ body {
     height:60vh;
     width:100%;
     margin:auto;
-    background-image:url(../img/events/img2.png);
+    background-image:url(../img/events/img2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -433,6 +433,8 @@ body {
     background-size:cover; 
     background-image: url(../img/background/4-01.png);
 }
+
+.workshop-
 
 .events-container {
     margin-top:20px;
