@@ -9,6 +9,7 @@ html, body {
     height:100%;
     margin: 0;
     padding:0;
+    scroll-behavior: smooth;
     overflow:hidden;
     font-family: 'Proxima Nova Semibold', sans-serif;
 }
@@ -188,7 +189,7 @@ body {
 .intro {
     font-size: 2.5vh;
     color:#8bd4a2;
-    width:30%;
+    width:100vw;
     float:left;
     position: relative;
     margin-left:4%;
@@ -206,11 +207,12 @@ body {
     color:#8bd4a2;
     font-size:7vh; 
     margin-top:30px;
-    text-align: left;
 }
 
 .short {
-    text-align:left;
+    margin-top:30px;
+    margin-left:16%;
+    margin-right:20%;
 }
 
 .titles {
@@ -234,18 +236,50 @@ body {
     background-image: url(../img/background/1-01.png);
 }
 
+.join-button {
+    margin-top: 30px;
+    border-width: 3px;
+    border-style:solid;
+    padding:5px;
+    border-color: #8bd4a2;
+    text-decoration: none;
+    color:#8bd4a2;
+}
+
+.join-button:hover {
+    color:white;
+    background-color: #8bd4a2;
+}
+
+.form-button {
+    margin-top: 30px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: #ffde59;;
+    padding:5px;
+    text-decoration: none;
+    color:white;
+    background-color:#ffde59;
+    transition: transform .2s;
+}
+
+.form-button:hover {
+    color:#ffde59;
+    background:none;
+    transform: scale(1.2);
+}
+
 /* Image Carousel */
 
 /* Slideshow container */
 .slideshow-container {
   position: relative;
   width:52%;
+  float: right;
   top:20vh;
   height:60vh;
   border-radius: 10px;
-  float:right;
   margin-right:5%;
-  margin-left:5%;
   -webkit-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
   -moz-box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
   box-shadow: 0px 0px 48px -3px rgba(0,0,0,0.23);
@@ -354,11 +388,17 @@ body {
 /* Our Mission */
 #page2 {
     text-align: center;
-    padding-left:15%;
-    padding-right:15%;
     background-position:center;
     background-size:cover;
     background-image: url(../img/background/2-01.png);
+}
+
+.mission {
+    text-align: left;
+    float:left;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 25%;
 }
 
 .mission-img {
