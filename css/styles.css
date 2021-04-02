@@ -805,14 +805,19 @@ body {
   }
 
   @media only screen and (max-width: 1000px) {
-      .past-events {
+    .past-events {
           display:none;
       }
-      .current-event {
+    .current-event {
           width:90%;
       }
 
-      #page3 {
+    #page2 {
+        text-align: center;
+    }
+
+
+    #page3 {
         height:auto;
         padding-left:0;
         padding-right: 0;
